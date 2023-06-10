@@ -1,0 +1,54 @@
+body {
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.qr-box {
+    height: auto;
+    width: 330px;
+    align-items: center;
+    margin: auto;
+    display: block;
+    background: hsl(0, 0%, 100%);
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: block;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+img {
+    display: block;
+    width: 300px;
+    text-align: center;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+h1,
+p {
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+h1 {
+    font-size: 1.5em;
+    color: hsl(218, 44%, 22%);
+}
+
+section {
+    margin: 0px 15px;
+}
